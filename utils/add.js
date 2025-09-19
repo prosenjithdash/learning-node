@@ -1,12 +1,5 @@
-const a = 144;
-
-const b = 45;
-
 const add = (p1, p2) => p1 + p2;
 
- 
 module.exports = {
-    a,
-    add,
-    b
+    add
 };

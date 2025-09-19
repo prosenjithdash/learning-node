@@ -1,3 +1,5 @@
-const var1 = require('./file-2') 
+const { a, b, add } = require('./file-2') 
+const {a:a3, b:b3, add:add3} = require('./file-3')
  
-console.log(var1)
+console.log(a, b, add(2, 3));
+console.log( a3,b3,add3(34,3,5))
